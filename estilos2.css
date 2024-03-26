@@ -1,0 +1,150 @@
+*{
+    font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+
+.nav1 {
+    border-left: 1rem solid #388d55;
+    background-color: white;
+    padding: 2rem;
+}
+
+.nav1 ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;   
+    
+}
+
+.nav1 a:hover {
+    background-color: #388d55; 
+    color: white; 
+  }
+
+/* Estilos generales del formulario de contacto */
+.turno_contenido {
+    margin: 20px;
+}
+
+.turno_contenido h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.turno_contenido form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos de los campos de entrada y etiquetas */
+.turno_contenido label {
+    margin-bottom: 5px;
+}
+
+.turno_contenido input[type="text"],
+.turno_contenido input[type="email"],
+.turno_contenido input[type="date"],
+.turno_contenido textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+/* Estilos del botón de envío */
+.turno_contenido .turno_btn {
+    padding: 10px 20px;
+    background-color: #388d55;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.turno_contenido .turno_btn:hover {
+    background-color: #2f7240;
+}
+
+/*footer*/
+footer {
+    background-color: #2f7240; 
+    color: white; 
+    text-align: center; 
+    font-size: 16px;
+    position: relative; 
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    padding: 2px 0;
+    
+  }
+
+  
+
+/*imagenes home*/
+
+.gallery .top-images {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; /* Esto alineará las imágenes verticalmente */
+    margin-bottom: 30px;
+  }
+  
+  .gallery .top-images img {
+    width: 45%; /* Ancho como porcentaje para controlar el tamaño */
+    height: 50%; /* Altura automática para mantener la proporción de las imágenes */
+    margin-bottom: 30px;
+  }
+/*tratamientos menu*/
+
+
+.tratamientos_menu {
+    background-color: white;
+    padding: 2rem;
+    justify-content: center; 
+    align-items: center;
+   
+}
+
+.tratamientos_menu ul li{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+.tratamientos_menu a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;   
+}
+
+.tratamientos_menu a:hover {
+    background-color: #388d55; 
+    color: white; 
+  }
+
+/*tratamiento descripción*/
+
+.tratamientos_descripcion{
+    font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.contenedor_img img{
+    width: 40%; 
+    height: 50%;
+    margin-bottom: 10px;   
+}
